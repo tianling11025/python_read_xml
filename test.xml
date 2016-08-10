@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+<object name="机票模块⼊入⼝口" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIA ScrollView[1]/UIAButton[7]" des="机票模块的⼊入⼝口"/>
+<object name="单程" findby="name" value="单程" des=""/>
+<object name="往返" findby="name" value="往返"/>
+</page>

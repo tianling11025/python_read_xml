@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student no="2009081097">
+        <name>Hongten</name>
+        <gender>M</gender>
+        <age>20</age>
+        <score subject="math">97</score>
+        <score subject="chinese">90</score>
+    </student>
+    <student no="2009081098">
+        <name>DuDu</name>
+        <gender>W</gender>
+        <age>21</age>
+        <score subject="math">87</score>
+        <score subject="chinese">96</score>
+    </student>
+    <student no="2009081099">
+        <name>Sum</name>
+        <gender>M</gender>
+        <age>19</age>
+        <score subject="math">64</score>
+        <score subject="chinese">98</score>
+    </student>
+</students>
