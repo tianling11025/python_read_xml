@@ -7,7 +7,7 @@
         <object name="舆情" findby="id" value="舆情" des=""/>
         <object name="公告" findby="id" value="公告" des=""/>
         <object name="营销服务" findby="id" value="营销服务" des=""/>
-        <object name="" findby="" value="" des=""/>
+        <object name="测试" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIA ScrollView[1]/UIAButton[7]" des=""/>
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
     </page>
