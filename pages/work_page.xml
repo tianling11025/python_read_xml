@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pages>
-    <page pagename="工作" >
+    <page pagename="登录页">
+        <object name="用户名" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATextField[1]" des=""/>
+        <object name="密码" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIASecureTextField[1]" des=""/>
+        <object name="登录" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIAButton[1]" des=""/>
+        <object name="" findby="" value="" des=""/>
+        <object name="" findby="" value="" des=""/>
+        <object name="" findby="" value="" des=""/>
+        <object name="" findby="" value="" des=""/>
+        <object name="" findby="" value="" des=""/>
+        <object name="" findby="" value="" des=""/>
+    </page>
+    <page pagename="工作页" >
         <object name="工作" findby="id" value="工作" des=""/>
         <object name="考勤" findby="id" value="考勤" des=""/>
         <object name="申请" findby="id" value="申请" des=""/>
@@ -11,7 +22,7 @@
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
     </page>
-    <page pagename="考勤">
+    <page pagename="考勤页">
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
