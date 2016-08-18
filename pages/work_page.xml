@@ -18,17 +18,46 @@
         <object name="舆情" findby="id" value="舆情" des=""/>
         <object name="公告" findby="id" value="公告" des=""/>
         <object name="营销服务" findby="id" value="营销服务" des=""/>
-        <object name="测试" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIA ScrollView[1]/UIAButton[7]" des=""/>
+        <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
     </page>
     <page pagename="考勤页">
+        <object name="旷工(天)" findby="" value="" des=""/>
+        <object name="迟到早退(天)" findby="" value="" des=""/>
+        <object name="休假(天)" findby="" value="" des=""/>
+        <object name="我的考勤" findby="" value="" des=""/>
+        <object name="考勤单" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
+    </page>
+    <page pagename="申请页">
+        <object name="请假申请" findby="id" value="请假申请" des=""/>
+        <object name="出差申请" findby="id" value="出差申请" des=""/>
+        <object name="请假类型" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIAButton[1]" des=""/>
+        <object name="单据" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]/UIAButton[1]" des=""/>
+        <object name="时间控件1" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[4]/UIAButton[1]" des=""/>
+        <object name="时间控件2" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[5]/UIAButton[4]" des=""/>
+        <object name="病假" findby="id" value="病假" des=""/>
+        <object name="确定" findby="id" value="确定" des=""/>
         <object name="" findby="" value="" des=""/>
-        <object name="" findby="" value="" des=""/>
+        <object name="全部" findby="" value="" des=""/>
+        <object name="待审批" findby="" value="" des=""/>
+        <object name="已批准" findby="" value="" des=""/>
+        <object name="已拒绝" findby="" value="" des=""/>
+    </page>
+    <page pagename="请假申请页">
+        <object name="请假类型" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[1]/UIAButton[1]" des=""/>
+        <object name="单据" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]/UIAButton[1]" des=""/>
+        <object name="时间控件1" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[4]/UIAButton[1]" des=""/>
+        <object name="时间控件2" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[5]/UIAButton[1]" des=""/>
+        <object name="病假" findby="id" value="病假" des=""/>
+        <object name="确定" findby="id" value="确定" des=""/>
+        <object name="确定1" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIAButton[4]" des=""/>
+        <object name="请假事由" findby="" value="" des=""/>
+        <object name="提交" findby="id" value="提交" des=""/>
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>
         <object name="" findby="" value="" des=""/>

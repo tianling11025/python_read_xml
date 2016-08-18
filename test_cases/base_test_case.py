@@ -16,7 +16,6 @@ class BaseTestCase(unittest.TestCase):
         desired_caps['language'] = 'zh-Hans'
         cls.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         cls.driver.implicitly_wait(20)
-        #cls.driver.execute_script()
 
 
     @classmethod

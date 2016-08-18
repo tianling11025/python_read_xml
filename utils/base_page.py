@@ -5,7 +5,7 @@ from time import sleep
 pagepath = os.path.abspath("..")+"/pages/work_page.xml"
 
 
-class BasePage():
+class BasePage(object):
 
     def __init__(self,driver):
         self.driver = driver
@@ -41,16 +41,21 @@ class BasePage():
         sleep(2)
         self.driver.get_screenshot_as_file(path+name+".png")
 
-
-
-
-
-
-
-
-
-if __name__ == "__main__":
-    test = BasePage()
-    data = test.read_element(u'工作',u'测试')
-    test.get_element(*data)
-    #test.read_element(data)
+    def back_home(self):
+        """"返回主页操作"""
+        try:
+            back_btn = self.driver.find_element_by_xpath(
+                "//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[1]")
+            back_btn1 = self.driver.find_element_by_xpath(
+                "//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]")
+        except:
+            pass
+        else:
+            if back_btn.is_enabled():
+                back_btn.click()
+                sleep(3)
+                self.back_home()
+            elif back_btn1.is_enabled():
+                back_btn1.click()
+                sleep(3)
+                self.back_home()
