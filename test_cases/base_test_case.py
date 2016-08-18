@@ -1,9 +1,10 @@
 #coding = utf-8
 from appium import webdriver
-import unittest,os
+import unittest,os,shutil
 from time import sleep
-class BaseTestCase(unittest.TestCase):
 
+dirpath = os.path.abspath("..") + "/screenshots/"
+class BaseTestCase(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
@@ -16,7 +17,8 @@ class BaseTestCase(unittest.TestCase):
         desired_caps['language'] = 'zh-Hans'
         cls.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         cls.driver.implicitly_wait(20)
-
+        shutil.rmtree(dirpath)
+        os.mkdir(dirpath)
 
     @classmethod
     def tearDownClass(cls):
