@@ -7,9 +7,6 @@ shotpath = os.path.abspath("..")+"/screenshots/"
 
 class LoginSystem(base_test_case.BaseTestCase,base_page.BasePage):
 
-    def setUp(self):
-        pass
-
     def test_1_login(self):
         """登录OA"""
         username = self.read_element(u'登录页',u'用户名')
@@ -25,5 +22,3 @@ class LoginSystem(base_test_case.BaseTestCase,base_page.BasePage):
         attendance = self.read_element(u'工作页',u'考勤')
         self.click_element(attendance)
         self.get_screenshot(shotpath,"考勤页")
-
-

@@ -1,9 +1,10 @@
-#coding = utf-8
+# coding=utf-8
 from appium import webdriver
 import unittest,os,shutil
 from time import sleep
 
 dirpath = os.path.abspath("..") + "/screenshots/"
+
 class BaseTestCase(unittest.TestCase):
 
     @classmethod
