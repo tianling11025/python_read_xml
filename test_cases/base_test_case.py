@@ -4,7 +4,7 @@ import unittest,os,shutil
 from time import sleep
 
 dirpath = os.path.abspath("..") + "/screenshots/"
-
+result_path= os.path.abspath("..")+"/test_result/"
 class BaseTestCase(unittest.TestCase):
 
     @classmethod

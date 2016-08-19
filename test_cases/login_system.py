@@ -19,6 +19,7 @@ class LoginSystem(base_test_case.BaseTestCase,base_page.BasePage):
         self.get_screenshot(shotpath,"登录结果")
 
     def test_2_getPage(self):
+        """打开考勤"""
         attendance = self.read_element(u'工作页',u'考勤')
         self.click_element(attendance)
         self.get_screenshot(shotpath,"考勤页")
