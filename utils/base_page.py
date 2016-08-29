@@ -41,6 +41,13 @@ class BasePage(object):
         sleep(2)
         self.driver.get_screenshot_as_file(path+name+".png")
 
+    def handle_alert(self):
+        sleep(5)
+        alert = self.driver.switch_to_alert()
+        text = alert.text
+        print text
+        alert.accept()
+
     def back_home(self):
         """"返回主页操作"""
         try:
