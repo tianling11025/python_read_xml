@@ -53,6 +53,10 @@
         <object name="单据" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[3]/UIAButton[1]" des=""/>
         <object name="时间控件1" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[4]/UIAButton[1]" des=""/>
         <object name="时间控件2" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIATableView[1]/UIATableCell[5]/UIAButton[1]" des=""/>
+        <object name="年" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIAPicker[1]/UIAPickerWheel[1]" des=""/>
+        <object name="月" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIAPicker[1]/UIAPickerWheel[2]" des=""/>
+        <object name="日" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIAPicker[1]/UIAPickerWheel[3]" des=""/>
+        <object name="分" findby="xpath" value="//UIAApplication[1]/UIAWindow[1]/UIAPicker[1]/UIAPickerWheel[4]" des=""/>
         <object name="病假" findby="id" value="病假" des=""/>
         <object name="婚假" findby="id" value="婚假" des=""/>
         <object name="产假" findby="id" value="产假" des=""/>
